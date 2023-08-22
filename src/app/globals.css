@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+}
+
+.font-inter{
+    font-family: 'inter',sans-serif;
+    font-weight: 300;
+}
+
+.animatedElementBottomNow {
+    transition: 0.5s;
+    opacity: 0;
+    transform: translateY(-300px);
+  }
+  .animatedElementRigthNow {
+    transition: 0.5s;
+    opacity: 0;
+    transform: translateX(300px);
+  }
+  .animatedElementLeftNow {
+    transition: 0.5s;
+    opacity: 0;
+    transform: translateX(-300px);
+  }
+  .animatedElementUp {
+    transition: 0.5s;
+    opacity: 0;
+    transform: translateY(-300px);
+  }
+  .animatedElementBottom{
+    transition: 0.5s;
+    opacity: 0;
+    transform: translateY(300px);
+  }
+  
+  .animatedElementRight {
+    transition: 0.5s;
+    transform: translate(300px);
+    opacity: 0;
+  }
+  
+  .animatedElementLeft {
+    transition: 0.5s;
+    transform: translate(-300px);
+    opacity: 0;
+  }
+  
+  .animatedOpacity {
+    opacity: 0;
+    transition: 0.5s;
+  }
+  
+  .interactiveScroll_title {
+    position: relative;
+  }
+  
+  .interactiveScroll_title.revealed::before {
+    width: 0;
+  }
+  
+  .interactiveScroll_title::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #1A1A1A;
+    border-radius: 10px;
+    border-color: #9E438D transparent transparent transparent;
+    transition: 1800ms ease-in-out;
+  }
+  
+  .interactiveScroll_titleWhite.revealedWhite::before {
+    width: 0;
+  }
+  
+  .interactiveScroll_titleWhite::before {
+    content: '';
+    position: absolute;
+    /* top: 0; */
+    right: 0;
+    width: 70%;
+    height: 10%;
+    background: #FFF;
+    border-radius: 10px;
+    border-color: #9E438D transparent transparent transparent;
+    transition: 1600ms ease-in-out;
+  }
+  .swiper-button-next{
+    color: orange!important;;
+  }
+  .swiper-button-prev{
+    color: orange!important;;
+  }

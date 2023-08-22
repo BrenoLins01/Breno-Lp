@@ -1,0 +1,17 @@
+.bg_createStore{
+    background-image: url('../../../assets/createStore/telas\ 1.svg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+@media (max-width: 1370px) {
+    .bg_createStore{
+        background-image: url('../../../assets/createStore/telas\ 1.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+    }
+  }
