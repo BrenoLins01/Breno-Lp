@@ -26,17 +26,17 @@ export default function FeedBackClients() {
             <div className={`2xl:w-[65rem] ${innerWidth < 889 ? 'w-[17rem]' : 'w-[55rem]'}   m-auto mt-10 px-2 select-none`}>
                 <Swiper slidesPerView={innerWidth < 889 ? 1 : 3} spaceBetween={20} navigation={true} modules={[Navigation, FreeMode]} className="mySwiper">
                     <SwiperSlide>
-                        <Image src={img1} width={300} />
+                        <Image src={img1} width={300} alt="Feedback 1"/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Image src={img2} width={300} />
+                        <Image src={img2} width={300} alt="Feedback 2"/>
                     </SwiperSlide>
 
                     <SwiperSlide>
-                        <Image src={img3} width={300} />
+                        <Image src={img3} width={300} alt="Feedback 3"/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Image src={img4} width={300} />
+                        <Image src={img4} width={300} alt="Feedback 4"/>
                     </SwiperSlide>
                 </Swiper>
             </div>

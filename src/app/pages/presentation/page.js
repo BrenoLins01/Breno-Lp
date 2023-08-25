@@ -34,10 +34,10 @@ export default function Presentation() {
                             Saia na frente da maioria e comece com uma loja profissional! Tenha uma loja pronta para decolar em vendas e poder fazer sua primeira venda em 24 horas.
                         </p>
                         <div onClick={() => scrollToDiv('plans')} className='w-80 lg:m-0 m-auto'>
-                            <button className={`${montserrat.className} text-lg tracking-wide hover:brightness-125 duration-200 w-80 rounded-xl h-14 shadow-shadowButton bg-[#00D208] text-white `}>Adquirir loja profissional</button>
+                            <button className={`${montserrat.className} text-lg tracking-wide hover:brightness-125 duration-200 w-80 rounded-xl h-14 shadow-shadowButton bg-green-600 text-white `}>Adquirir loja profissional</button>
                         </div>
                     </div>
-                    <Image src={ImgPresentation} className='lg:w-[650px] w-[400px]' />
+                    <Image src={ImgPresentation} className='lg:w-[650px] w-[400px]' alt='Notebook'/>
                 </div>
             </div>
         </div>

@@ -27,20 +27,20 @@ export default function ExamplesToSee() {
             <div className="2xl:w-[35rem] xl:w-[25rem] sm:w-[29rem] m-auto mt-10 px-2 select-none">
                 <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
                     <SwiperSlide>
-                        <Image src={img1} />
+                        <Image src={img1} alt="demonstração 1"/>
                     </SwiperSlide>
 
                     <SwiperSlide>
-                        <Image src={img3} />
+                        <Image src={img3} alt="demonstração 2"/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Image src={img4} />
+                        <Image src={img4} alt="demonstração 3"/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Image src={img2} />
+                        <Image src={img2} alt="demonstração 4"/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Image src={img5} />
+                        <Image src={img5} alt="demonstração 5"/>
                     </SwiperSlide>
                 </Swiper>
             </div>
