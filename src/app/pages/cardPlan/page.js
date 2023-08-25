@@ -136,7 +136,7 @@ export default function CardPlan() {
                     </div>
 
                     <div className='lg:w-80 w-72  m-auto mt-10'>
-                        <button className={`${montserrat.className} sm:text-lg tracking-wide hover:brightness-125 duration-200 lg:w-80 w-72 rounded-xl h-14 shadow-shadowButton bg-[#00D208] text-white `}>EU QUERO</button>
+                        <a href='www.ccomprar.br'><button className={`${montserrat.className} sm:text-lg tracking-wide hover:brightness-125 duration-200 lg:w-80 w-72 rounded-xl h-14 shadow-shadowButton bg-[#00D208] text-white `}>EU QUERO</button></a>
                     </div>
                 </div>
             </div>
