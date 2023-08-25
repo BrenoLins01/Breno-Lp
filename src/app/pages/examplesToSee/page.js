@@ -2,9 +2,9 @@
 import { Montserrat } from "next/font/google"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import img1 from '../../../assets/examplesToSee/WhatsApp-Image-2023-04-19-at-14.46.00-1.webp'
-import img2 from '../../../assets/examplesToSee/WhatsApp-Image-2023-04-19-at-14.46.00-2.jpg'
-import img3 from '../../../assets/examplesToSee/WhatsApp-Image-2023-04-19-at-14.46.00-3.jpg'
-import img4 from '../../../assets/examplesToSee/WhatsApp-Image-2023-04-19-at-14.46.00-6.jpg'
+import img2 from '../../../assets/examplesToSee/WhatsApp-Image-2023-04-19-at-14.46.00-2.webp'
+import img3 from '../../../assets/examplesToSee/WhatsApp-Image-2023-04-19-at-14.46.00-3.webp'
+import img4 from '../../../assets/examplesToSee/WhatsApp-Image-2023-04-19-at-14.46.00-6.webp'
 import img5 from '../../../assets/examplesToSee/WhatsApp-Image-2023-04-19-at-14.46.00.webp'
 // Import Swiper styles
 import 'swiper/css';
