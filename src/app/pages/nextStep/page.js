@@ -74,7 +74,7 @@ export default function NextStep() {
                 <div>
                     <div className='flex flex-row items-start gap-10'>
                         <div className={``}>
-                            <Image src={imgNextStep} width={500} />
+                            <Image src={imgNextStep} width={500} alt='imagem de representação'/>
                             <div class="w-[31rem] h-[10rem] -translate-y-[10.3rem] rounded-2xl border border-solid border-orange-500 bg-orange-400/80 shadow-md absolute">
                                 <h1 className={`text-center ${montserrat.className} text-[#FF3003] text-2xl text-center`}>Satisfação 100% garantida</h1>
                                 <p className='text-white px-2 text-center'>Nós adotamos a política de 100% de satisfação. Nosso objetivo é garantir sua felicidade com nosso trabalho. Se houver algo que não lhe agrade, colaboraremos para solucionar em sua loja. É simples assim.</p>
