@@ -32,7 +32,7 @@ export default function NextStep() {
                                         01
                                     </h1>
                                     <h1 className={`${montserrat.className} pt-4 text-xl text-center text-white -translate-y-10 z-10`}>COMPRA APROVADA</h1>
-                                    <p className='text-white text-center pt-7 px-2  -translate-y-10'>Após decidir começar a vender online, nossa equipe enviará no seu whatsapp os passos.</p>
+                                    <p className='text-white text-center pt-7 px-2  -translate-y-10'>Você vai receber todos os passos no seu e-mail de compra, fique atento a ele! No seu e-mail você receberá o link para chamar a gente no WhatsApp e iniciar seu atendimento.</p>
                                 </div>
                             </div>
                         </div>
@@ -47,7 +47,7 @@ export default function NextStep() {
                                             02
                                         </h1>
                                         <h1 className={`${montserrat.className} pt-4  text-center text-white text-xl -translate-y-10`}>PREENCHER FORMULARIO</h1>
-                                        <p className='text-white text-center pt-7 px-2 -translate-y-10' >Enviaremos um formulário para que você preencha. Em seguida, nossa equipe de profissionais entra em ação!</p>
+                                        <p className='text-white text-center pt-7 px-2 -translate-y-10' >Enviaresmos um formulário para Captar suas preferências e detalhes sobre a estrutura desejada para sua loja!</p>
                                     </div>
                                 </div>
                             </div>
