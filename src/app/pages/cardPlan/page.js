@@ -23,10 +23,10 @@ export default function CardPlan() {
                     POR APENAS 12x DE
                 </h1>
                 <h1 className={`${montserrat.className} pt-2 text-5xl text-center text-secondaryDefault`}>
-                    R$16,49
+                    R$15,05
                 </h1>
                 <h1 className={`${montserrat.className} tracking-[0.1em]  pt-4 text-md text-center text-secondaryDefault`}>
-                    OU R$197,90 A VISTA
+                    OU R$149,90 A VISTA
                 </h1>
 
                 <div className="mt-10 flex justify-center flex-col items-center">
@@ -136,7 +136,7 @@ export default function CardPlan() {
                     </div>
 
                     <div className='lg:w-80 w-72  m-auto mt-10'>
-                        <a href='www.ccomprar.br'><button className={`${montserrat.className} sm:text-lg tracking-wide hover:brightness-125 duration-200 lg:w-80 w-72 rounded-xl h-14 shadow-shadowButton bg-[#00D208] text-white `}>EU QUERO</button></a>
+                        <a href='https://pay.kiwify.com.br/d2476MO'><button className={`${montserrat.className} sm:text-lg tracking-wide hover:brightness-125 duration-200 lg:w-80 w-72 rounded-xl h-14 shadow-shadowButton bg-[#00D208] text-white `}>EU QUERO</button></a>
                     </div>
                 </div>
             </div>
