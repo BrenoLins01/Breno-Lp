@@ -2,6 +2,7 @@ import Head from 'next/head';
 import './globals.css';
 import { Inter, Montserrat } from 'next/font/google';
 import { ScreenSizeProvider } from '@/context/screenSizeContext';
+import Script from 'next/script';
 
 const inter = Inter({ subsets: ['latin'] });
 
