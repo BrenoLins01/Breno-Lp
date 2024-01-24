@@ -1,26 +1,19 @@
-import Head from 'next/head'
-import './globals.css'
-import { Inter, Montserrat } from 'next/font/google'
-import { ScreenSizeProvider } from '@/context/screenSizeContext'
-const inter = Inter({ subsets: ['latin'] })
+import Head from 'next/head';
+import './globals.css';
+import { Inter, Montserrat } from 'next/font/google';
+import { ScreenSizeProvider } from '@/context/screenSizeContext';
+
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Lojas - Dropshipping',
-  description: 'Criado por DeniLandingPages ',
-}
+  description: 'Criado por DeniLandingPages',
+};
 
 export default function RootLayout({ children }) {
-
   return (
     <>
-    <Head>
-        <title>Captura - Identidade Empreendedora</title>
-        <meta name="description" content='Captura - identidade empreendedora' />
-        <meta name="author" content='Captura - identidade empreendedora' key='desc' />
-        <meta property='og:description' content='Captura - identidade empreendedora' />
-        <meta property='og:title' content='Captura - identidade empreendedora' />
-        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-        
+      <Head>
         {/* Adicione o script do pixel do Facebook aqui */}
         <script
           dangerouslySetInnerHTML={{
@@ -38,15 +31,20 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
-       <noscript>
-          <img height="1" width="1" style="display:none"src="https://www.facebook.com/tr?id=1504448120101551&ev=PageView&noscript=1"/>
+        <noscript>
+          <img
+            height="1"
+            width="1"
+            style={{ display: 'none' }}
+            src="https://www.facebook.com/tr?id=1504448120101551&ev=PageView&noscript=1"
+          />
         </noscript>
       </Head>
-    <html lang="en">
-      <ScreenSizeProvider>
-        <body className={inter.className}>{children}</body>
-      </ScreenSizeProvider>
-    </html>
+      <html lang="en">
+        <ScreenSizeProvider>
+          <body className={inter.className}>{children}</body>
+        </ScreenSizeProvider>
+      </html>
     </>
-  )
+  );
 }
