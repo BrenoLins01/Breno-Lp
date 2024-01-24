@@ -4,7 +4,7 @@ import { Inter, Montserrat } from 'next/font/google';
 import { ScreenSizeProvider } from '@/context/screenSizeContext';
 import Script from 'next/script';
 
-const inter = Inter({ subsets: ['latin'] });
+const montserrat = Montserrat({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Lojas - Dropshipping',
@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
     <>
       <html lang="en">
         <ScreenSizeProvider>
-          <body className={inter.className}>{children}</body>
+          <body className={montserrat.className}>{children}</body>
         </ScreenSizeProvider>
       </html>
     </>

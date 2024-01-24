@@ -17,7 +17,7 @@ export default function NextStep() {
     return (
         <div className='lg:h-[45rem]  flex flex-col  justify-center items-center'>
             <h1 className={`${montserrat.className} lg:pb-20 pt-20 2xl:text-5xl lg:text-4xl text-xl text-center text-primaryDefault`}>
-                <strong className='text-secondaryDefault'>PRÓXIMO PASSO PARA</strong> TER SUA LOJA <br className='lg:flex hidden'/>ONLINE E COMEÇAR A FATURAR
+                <strong className='text-secondaryDefault'>PRÓXIMO PASSO PARA</strong> TER SUA LOJA <br className='lg:flex hidden' />ONLINE E COMEÇAR A FATURAR
             </h1>
             {innerWidth < 1024 ? <div>
                 <div className='flex flex-row items-start gap-10  overflow-hidden'>
@@ -32,7 +32,8 @@ export default function NextStep() {
                                         01
                                     </h1>
                                     <h1 className={`${montserrat.className} pt-4 text-xl text-center text-white -translate-y-10 z-10`}>COMPRA APROVADA</h1>
-                                    <p className='text-white text-center pt-7 px-2  -translate-y-10'>Você vai receber todos os passos no seu e-mail de compra, fique atento a ele! No seu e-mail você receberá o link para chamar a gente no WhatsApp e iniciar seu atendimento.</p>
+                                    <p className='text-white text-center pt-2 px-2  -translate-y-10'>Você vai receber todos os passos no seu e-mail de compra, fique atento a ele!
+                                        No seu e-mail você receberá o link para chamar a gente no WhatsApp e iniciar seu atendimento.</p>
                                 </div>
                             </div>
                         </div>
@@ -47,7 +48,8 @@ export default function NextStep() {
                                             02
                                         </h1>
                                         <h1 className={`${montserrat.className} pt-4  text-center text-white text-xl -translate-y-10`}>PREENCHER FORMULARIO</h1>
-                                        <p className='text-white text-center pt-7 px-2 -translate-y-10' >Enviaresmos um formulário para Captar suas preferências e detalhes sobre a estrutura desejada para sua loja!</p>
+                                        <p className='text-white text-center pt-2 px-2 -translate-y-10' >Enviaresmos um formulário para Captar suas preferências e detalhes sobre
+                                            a estrutura desejada para sua loja!</p>
                                     </div>
                                 </div>
                             </div>
@@ -62,7 +64,7 @@ export default function NextStep() {
                                         03
                                     </h1>
                                     <h1 className={`${montserrat.className} pt-4 text-xl text-center text-white -translate-y-10`}>LOJA PRONTA</h1>
-                                    <p className='text-white text-center pt-7 px-2 -translate-y-10'>Parabéns, em 24h você receberá sua loja de alta conversão e estará pronta para decolar em vendas.</p>
+                                    <p className='text-white text-center pt-2 px-2 -translate-y-10'>Parabéns, em 24h você receberá sua loja de alta conversão e estará pronta para decolar em vendas.</p>
                                 </div>
                             </div>
                         </div>
@@ -74,7 +76,7 @@ export default function NextStep() {
                 <div>
                     <div className='flex flex-row items-start gap-10'>
                         <div className={``}>
-                            <Image src={imgNextStep} width={500} alt='imagem de representação'/>
+                            <Image src={imgNextStep} width={500} alt='imagem de representação' />
                             <div class="w-[31rem] h-[10rem] -translate-y-[10.3rem] rounded-2xl border border-solid border-orange-500 bg-orange-400/80 shadow-md absolute">
                                 <h1 className={`text-center ${montserrat.className} text-[#FF3003] text-2xl text-center`}>Satisfação 100% garantida</h1>
                                 <p className='text-white px-2 text-center'>Nós adotamos a política de 100% de satisfação. Nosso objetivo é garantir sua felicidade com nosso trabalho. Se houver algo que não lhe agrade, colaboraremos para solucionar em sua loja. É simples assim.</p>
@@ -88,7 +90,8 @@ export default function NextStep() {
                                 <div className='lg:w-96 w-80 h-[9.6rem] border rounded-lg  bg-secondaryDefault'>
                                     <div className='flex flex-col items-center '>
                                         <h1 className={`${montserrat.className} pt-4 lg:text-xl text-center text-white  z-10`}>COMPRA APROVADA</h1>
-                                        <p className='text-white text-center pt-7'>Após decidir começar a vender online, nossa equipe enviará no seu whatsapp os passos.</p>
+                                        <p className='text-white text-center pt-2'>Você vai receber todos os passos no seu e-mail de compra, fique atento a ele!
+                                            No seu e-mail você receberá o link para chamar a gente no WhatsApp e iniciar seu atendimento.</p>
                                     </div>
                                 </div>
                             </div>
@@ -101,7 +104,8 @@ export default function NextStep() {
                                     <div className='lg:w-96 w-80 h-[9.6rem] border rounded-lg bg-secondaryDefault'>
                                         <div className='flex flex-col items-center'>
                                             <h1 className={`${montserrat.className} pt-4 lg:text-xl text-center text-white`}>PREENCHER FORMULARIO</h1>
-                                            <p className='text-white text-center pt-7'>Enviaremos um formulário para que você preencha. Em seguida, nossa equipe de profissionais entra em ação!</p>
+                                            <p className='text-white text-center pt-2'>Enviaresmos um formulário para Captar suas preferências e detalhes sobre
+                                                a estrutura desejada para sua loja!</p>
                                         </div>
                                     </div>
                                 </div>
@@ -114,7 +118,7 @@ export default function NextStep() {
                                 <div className='lg:w-96 w-80 h-[9.6rem] border rounded-lg bg-secondaryDefault'>
                                     <div className='flex flex-col items-center'>
                                         <h1 className={`${montserrat.className} pt-4 lg:text-xl text-center text-white`}>LOJA PRONTA</h1>
-                                        <p className='text-white text-center pt-7'>Parabéns, em 24h você receberá sua loja de alta conversão e estará pronta para decolar em vendas.</p>
+                                        <p className='text-white text-center pt-2'>Parabéns, em 24h você receberá sua loja de alta conversão e estará pronta para decolar em vendas.</p>
                                     </div>
                                 </div>
                             </div>

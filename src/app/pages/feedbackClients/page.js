@@ -8,6 +8,10 @@ import img1 from '../../../assets/feedbackClients/Group 15.svg'
 import img2 from '../../../assets/feedbackClients/Group 16.svg'
 import img3 from '../../../assets/feedbackClients/Group 18.svg'
 import img4 from '../../../assets/feedbackClients/Group 17.svg'
+import img5 from '../../../assets/feedbackClients/WhatsApp Image 2024-01-23 at 2.19 1.svg'
+import img6 from '../../../assets/feedbackClients/WhatsApp Image 2024-01-23 at 2.19 2.svg'
+import img7 from '../../../assets/feedbackClients/WhatsApp Image 2024-01-23 at 2.19 3.svg'
+import img8 from '../../../assets/feedbackClients/WhatsApp Image 2024-01-23 at 2.19 4.svg'
 import { useScreenSize } from '@/context/screenSizeContext';
 import { useEffect, useState } from 'react';
 const montserrat = Montserrat({ subsets: ['latin'], weight: '900' })
@@ -37,6 +41,18 @@ export default function FeedBackClients() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <Image src={img4} width={300} alt="Feedback 4"/>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Image src={img5} width={300} alt="Feedback 5"/>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Image src={img6} width={300} alt="Feedback 6"/>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Image src={img7} width={300} alt="Feedback 7"/>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Image src={img8} width={300} alt="Feedback 4"/>
                     </SwiperSlide>
                 </Swiper>
             </div>

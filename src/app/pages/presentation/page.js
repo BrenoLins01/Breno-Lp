@@ -27,14 +27,14 @@ export default function Presentation() {
             <div className={`${style.bg_presentation} h-[55rem] bg-cover `}>
                 <div className='flex lg:flex-row flex-col-reverse items-center justify-center h-[55rem] max-w-[1300px] m-auto px-4'>
                     <div className='flex flex-col lg:gap-8 gap-4'>
-                        <h1 className={`${montserrat.className} 2xl:w-[43rem] lg:text-left text-center leading-tight text-white 2xl:text-5xl lg:text-4xl text-2xl`}>
+                        <h1 className={`${montserrat.className} 2xl:w-[43rem] font-bold lg:text-left text-center leading-tight text-white 2xl:text-5xl lg:text-4xl text-2xl`}>
                             TENHA SUA PRÓPRIA LOJA VIRTUAL COMPLETA COM FORNECEDORES 100% NACIONAIS!
                         </h1>
                         <p className='font-inter text-white text-xl lg:text-left text-center'>
                             Saia na frente da maioria e comece com uma loja profissional! Tenha uma loja pronta para decolar em vendas e poder fazer sua primeira venda em 24 horas.
                         </p>
                         <div onClick={() => scrollToDiv('plans')} className='w-80 lg:m-0 m-auto'>
-                            <button className={`${montserrat.className} text-lg tracking-wide hover:brightness-125 duration-200 w-80 rounded-xl h-14 shadow-shadowButton bg-green-600 text-white `}>Adquirir loja profissional</button>
+                            <button className={`${montserrat.className} text-lg tracking-wide hover:brightness-125 duration-200 w-80 rounded-xl h-14 shadow-shadowButton bg-[#00D208] text-white `}>Adquirir loja profissional</button>
                         </div>
                     </div>
                     <Image src={ImgPresentation} className='lg:w-[650px] w-[400px]' alt='Notebook'/>

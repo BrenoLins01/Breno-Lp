@@ -10,10 +10,10 @@
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_84_40" transform="scale(0.00133333 0.000749865)"/>
 </pattern>
-<filter id="filter0_f_84_40" x="131.949" y="2.1167" width="128.782" height="59" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_f_84_40" x="137.649" y="7.8167" width="117.382" height="47.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feGaussianBlur stdDeviation="6.5" result="effect1_foregroundBlur_84_40"/>
+<feGaussianBlur stdDeviation="3.65" result="effect1_foregroundBlur_84_40"/>
 </filter>
 <filter id="filter1_f_84_40" x="136.755" y="142.507" width="150.607" height="63" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
